@@ -34,6 +34,7 @@ a:not([href])::after {
     position: absolute;
     z-index: 1;
     content: 'soon';
+    pointer-events: none;
 
     left: 105%;
 }
